@@ -1,2 +1,2 @@
-# Statystyka_opisowa
-Kurs statystyki opisowej oparty na książce Statystyka od podstaw, autorów: Janiny Jóźwiak i Jarosława Podgórskiego
+# RownaniaRozniczkowe
+Kurs Równania Róźniczkowe oparty na wykładach dr hab. Anny Czapkiewicz

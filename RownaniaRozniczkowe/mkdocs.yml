@@ -1,0 +1,12 @@
+site_name: RownaniaRozniczkowe
+theme:
+  name: material
+
+nav:
+  - Strona główna: index.md
+  - Temat: temat.md
+  - Autorzy: autorzy.md
+  - Równania I stopnia: RRIstopien.md
+  - Równania II stopnia: RRIIstopien.md
+  - Przykłady: przyklady.md
+ 

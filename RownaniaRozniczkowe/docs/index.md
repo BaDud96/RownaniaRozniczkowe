@@ -1,4 +1,4 @@
-# Równania Różniczkowe – kurs praktyczny
+# Kurs Równania Różniczkowe
 
 Witamy w kursie poświęconym równaniom różniczkowym – jednemu z fundamentów matematyki stosowanej, fizyki, informatyki i inżynierii.
 Kurs oparty na wykładach dr. hab. Anny Czapkiewicz.

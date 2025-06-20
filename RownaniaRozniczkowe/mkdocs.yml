@@ -1,12 +1,32 @@
 site_name: RownaniaRozniczkowe
-theme:
-  name: material
 
+theme:
+  name: ivory
+  palette:
+    scheme: default
+    primary: purple   # fioletowy akcent
+    accent: purple
+  font:
+    text: Georgia
+    code: Fira Code
+  features:
+    - navigation.expand
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+
+
+# Struktura nawigacji (przykład) 
 nav:
   - Strona główna: index.md
-  - Temat: temat.md
-  - Autorzy: autorzy.md
-  - Równania I stopnia: RRIstopien.md
-  - Równania II stopnia: RRIIstopien.md
+  - Wstęp: Wstep.md
+  - Równania I rzędu: RRIstopien.md
+  - Równania II rzędu: RRIIstopien.md
   - Przykłady: przyklady.md
- 
+  - Autorzy: autorzy.md
+
+# Plugins
+plugins:
+  - search
+
+extra_css: custom.css

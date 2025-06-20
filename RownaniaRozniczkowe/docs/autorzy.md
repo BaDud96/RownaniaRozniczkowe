@@ -6,7 +6,7 @@ Projekt został przygotowany w ramach zajęć projektowych przez zespół dwuoso
 **Rola:** Kierownik projektu  
 **Odpowiedzialność:** struktura dokumentacji, teoria, równania II stopnia
 
-## 👨‍💻 Imię i nazwisko 2
+## 👩‍💻 Imię i nazwisko 2
 **Rola:** Współautor   
 **Odpowiedzialność:** przykłady numeryczne, kod w Pythonie, równania I stopnia
 

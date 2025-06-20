@@ -1,22 +1,30 @@
-site_name: RownaniaRozniczkowe
+site_name: Równania Różniczkowe
 
 theme:
-  name: ivory
+  name: material
   palette:
-    scheme: default
-    primary: purple   # fioletowy akcent
-    accent: purple
-  font:
-    text: Georgia
-    code: Fira Code
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Tryb automatyczny
+    - scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/weather-sunny
+        name: Jasny tryb
+    - scheme: slate
+      primary: indigo
+      accent: light blue
+      toggle:
+        icon: material/weather-night
+        name: Ciemny tryb
   features:
-    - navigation.expand
-    - navigation.sections
+    - palette.toggle
     - navigation.top
+    - navigation.sections
     - content.code.copy
 
-
-# Struktura nawigacji (przykład) 
 nav:
   - Strona główna: index.md
   - Wstęp: Wstep.md
@@ -25,8 +33,10 @@ nav:
   - Przykłady: przyklady.md
   - Autorzy: autorzy.md
 
-# Plugins
 plugins:
   - search
 
-extra_css: custom.css
+extra_css:
+  - styles/custom.css
+extra_css:
+  - styles/custom.css

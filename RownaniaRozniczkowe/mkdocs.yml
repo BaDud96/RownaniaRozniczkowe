@@ -28,8 +28,28 @@ theme:
 nav:
   - Strona główna: index.md
   - Wstęp: Wstep.md
-  - Równania I rzędu: RRIstopien.md
-  - Równania II rzędu: RRIIstopien.md
+  - Równania różniczkowe I rzędu:
+      - Wprowadzenie: rownania-rzedu-1.md
+      - O zmiennych rozdzielonych:
+          - Opis: metoda1-rzedu-1.md
+          - Przykład: przyklad-metoda1-rzedu-1.md
+      - Liniowe jednorodne: 
+          - Opis: metoda2-rzedu-1.md
+          - Przykład: przyklad-metoda2-rzedu-1.md
+      - Liniowe niejednorodne:
+          - Opis: metoda3-rzedu-1.md
+          - Przykład: przyklad-metoda3-rzedu-1.md
+      - Zupełne:
+          - Opis: metoda4-rzedu-1.md
+          - Przykład: przyklad-metoda4-rzedu-1.md
+  - Równania różniczkowe II rzędu:
+      - Wprowadzenie: rownania-rzedu-2.md
+      - Liniowe jednorodne:
+          - Opis: metoda1-rzedu-2.md
+          - Przykład: przyklad-metoda1-rzedu-2.md
+      - Liniowe niejednorodne:
+          - Opis: metoda2-rzedu-2.md
+          - Przykład: przyklad-metoda2-rzedu-2.md
   - Przykłady: przyklady.md
   - Autorzy: autorzy.md
 

@@ -1,30 +1,22 @@
-# Opis zmiennych rozdzielonych
-
-Równania różniczkowe o **zmiennych rozdzielonych** to jedna z najprostszych klas równań różniczkowych I rzędu. Ich cechą charakterystyczną jest możliwość przekształcenia równania do postaci, w której zmienne niezależna \(x\) i zależna \(y\) są rozdzielone po przeciwnych stronach równania.
-
-## 🔹 Postać ogólna
-
-Równanie ma postać:
+## Równanie różniczkowe pierwszego rzędu **o zmiennych rozdzielonych** to takie, które można zapisać w postaci:  
 $$
-\ \ y'= f(x)\cdot g(y)  \  
+y' = f(x) \cdot g(y)
 $$
-Można je zapisać także jako:
+Można w nim oddzielić zmienne, pogrupować y na lewo, x na prawo, pamiętając, że y' = dy/dx : 
 $$
-\ \frac{dy}{dx} = f(x) \cdot g(y) \
+\frac{dy}{dx} = f(x) \cdot g(y)
 $$
-Mnożymy obustronnie razy **dx** i dzielimy przez **g(y)**, otrzymujemy:
+teraz dzielimy przez **g(y)** i mnożymy przez **dx**, otrzymujemy :
 $$
- \ \frac{dy}{g(y)}= f(x)\cdot dx \
+\frac{dy}{g(y)} = f(x)dx
 $$
-
-i całkujemy obustronnie:
+całkujemy obustronnie
 $$
-\ \int \frac{dy}{g(y)} = \int f(x)\cdot dx \
+\int \frac{dy}{g(y)} \ = \int f(x)\,dx
 $$
-Rozwiązaniem będzie rodzina funkcji:
-$$
-\ G(y) = H(x)+C \
-$$
+Obliczamy całki i tak przekształcamy równanie, żeby uzyskać postać y = H(x) + C.  
+Rozwiązaniem będzie **rodzina funkcji y = H(x) + C**, różniąca się stałą C, czyli tzw. **rozwiązanie ogólne**.  
+Jeżeli w zadaniu będzie podany **warunek poczatkowy Cauchy'ego y(x0) = y**, to podstawiając go do równania ogólnego otrzymamy **rozwiązanie szczególne**.
 
 ## 🔸 Aby zastosować tę metodę:
 - funkcje \(g(y)\) i \(f(x)\) muszą być ciągłe,
@@ -33,6 +25,3 @@ $$
 
 ## 📘 Interpretacja geometryczna
 Wartości \( \frac{dy}{dx} \) można traktować jako nachylenia stycznych do wykresu funkcji \(y(x)\). Rozdzielenie zmiennych pozwala „rozłożyć” to nachylenie na składniki zależne od \(x\) i \(y\), co umożliwia łatwiejszą analizę i rozwiązanie równania.
-
-## 📌 Podsumowanie
-Metoda rozdzielania zmiennych to jedno z najbardziej podstawowych, ale i potężnych narzędzi w rozwiązywaniu równań różniczkowych. Jest często punktem wyjścia w analizie bardziej złożonych zjawisk.

@@ -1,25 +1,25 @@
 # Kurs Równania Różniczkowe
 
-Witamy w kursie poświęconym równaniom różniczkowym – jednemu z fundamentów matematyki stosowanej, fizyki, informatyki i inżynierii.
+Witamy w kursie poświęconym równaniom różniczkowym – jednemu z fundamentów matematyki stosowanej, fizyki, informatyki i inżynierii.  
 Kurs jest oparty o wykłady dr hab. Anny Czapkiewicz.
 
 ## 🎯 Cel kursu
-Celem tego kursu jest przystępne wprowadzenie do równań różniczkowych wraz z przykładami i zastosowaniami.
+Celem tego kursu jest przystępne wprowadzenie do podstaw rozwiązywania równań różniczkowych wraz z prostymi przykładami.
 
 ### Dowiesz się m.in.:
 - czym są równania różniczkowe,
 - jak klasyfikuje się równania,
-- jak je rozwiązywać,
-- jak je stosować.
+- jakie są metody ich rozwiązywania,
+- jak je stosować w przykładach.
 
 ## 🧱 Struktura kursu
-- [**Wstęp**](Wstep.md) – Wprowadzenie do kursu
-- [**Równania I stopnia**](RRIstopien.md) – Metody rozwiązywania najprostszych równań różniczkowych
-- [**Równania II stopnia**](RRIIstopien.md) – Rozwiązania analityczne i zastosowania fizyczne
-- [**Przykłady**](przyklady.md) – Rozwiązania zadań w Pythonie, symulacje, wykresy
+- [**Wstęp**](Wstep.md) – Wprowadzenie do równań różniczkowych
+- [**Równania I stopnia**](rownania-rzedu-1.md) – Czym są, jakimi metodami je rozwiązywać?
+- [**Równania II stopnia**](rownania-rzedu-2.md) – Czym się róznią od I-go rzędu, jak je rozwiązywać?
+- [**Przykłady**](przyklady.md) – Przykłady rozwiązań podstawowych równań różniczkowych
 
 ## 👥 Dla kogo?
-Dla studentów, uczniów technikum, programistów oraz osób zainteresowanych zastosowaniem matematyki w praktyce.
+Dla studentów, uczniów techników oraz osób zainteresowanych podstawową wiedzą z tego działu matematyki.
 
 ---
 

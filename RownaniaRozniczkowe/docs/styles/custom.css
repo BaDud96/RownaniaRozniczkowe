@@ -3,9 +3,11 @@ body {
   font-family: Georgia, serif;
   background-color: var(--bg);
   color: var(--text);
+  line-height: 2;
 }
 
 h1, h2, h3, h4, h5, h6 {
+  font-size: 1rem;
   font-family: Georgia, serif;
   color: var(--headline);
 }

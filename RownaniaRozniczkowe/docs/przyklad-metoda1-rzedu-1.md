@@ -40,3 +40,4 @@ $$
  y = arcsin(C \cdot e^{\frac{1}{2}x^2})\
 $$
 
+🔙 [Powrót do opisu](metoda1-rzedu-1.md)

@@ -26,3 +26,4 @@ y = C \cdot e^{-\frac{1}{2}x^2}\
 $$
 Jest to rozwiązanie ogólne jednorodne.  
 
+🔙 [Powrót do opisu](metoda2-rzedu-1.md)

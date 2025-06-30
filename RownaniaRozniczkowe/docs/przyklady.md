@@ -1,217 +1,217 @@
-#Ćwiczenia do samodzielnego rozwiązania
+Rozwiążmy przykład:
+$$
+y' = x \cdot tgy
+$$
+$$
+\frac{dy}{dx} = x \cdot tgy\ 
+$$
+$$
+\frac{1}{tgy}dy = xdx\  
+$$
+$$
+\int \frac{1}{tgy}dy = \int xdx \
+$$
+teraz rozwiązujemy całkę po lewej stronie  
+$$
+\int \frac{1}{tgy}dy = \int \frac{cosy}{siny}dy \
+$$
+aby rozwiązać tą całkę stosujemy podstawienie t = siny, dt = cosy dy, otrzymujemy:  
+$$
+\int \frac{1}{tgy}dy = \int \frac{cosy}{siny}dy = \int \frac{1}{t}dt = ln|t| + c = ln|siny| + c \
+$$
+teraz rozwiązujemy całkę po prawej stronie  
+$$
+\int xdx = \frac{1}{2}x^2 + c\  
+$$
+zgodnie z opisaną metodą stosowaną do [równań I-go rzędu o zmiennych rozdzielonych](metoda1-rzedu-1.md)  
+$$
+ln|siny| = \frac{1}{2}x^2 + c\  
+$$
+$$
+ln|siny| = \ln\left(e^{\frac{1}{2}x^2}\right) + lne^c = \ln\left(e^{\frac{1}{2}x^2}\right) \cdot e^c \
+$$
+ale \(e^c\) to jakaś liczba, stała więc zatąpimy to jedną stałą C 
+opuszczając logarytm naturalny otrzymujemy:  
+$$
+siny = C \cdot e^{\frac{1}{2}x^2}\
+$$
+rozwiązaniem jest uzyskanie funkcji y(x), więc ostatecznie mamy:  
+$$
+ y = arcsin(C \cdot e^{\frac{1}{2}x^2})\
+$$
 
-Poniżej znajdziesz zestaw 14 zadań – po dwa dla każdej omawianej metody, dodatkowo dwa dla zupełnych z czynnikiem całkującym. Podpowiedzi są ukryte i można je rozwinąć klikając w tytuł.
+🔙 [Powrót do opisu](metoda1-rzedu-1.md)  
 
----
+np. $$ y'' + 4y' + 4y = 0 $$
+po podstawieniu \(y=e^{\alpha x}\) i podzieleniu przez \(e^{\alpha x}\), otrzymujemy:  
+$$ {\alpha}^2 + 4\alpha + 4 = 0 $$
+$$ \Delta = 16 - 16 = 0 $$
+więc będzie jeden podwójny pierwiastek \(\alpha\)  
+$$ \alpha = -4 / 2 = -2 $$
+więc zgodnie z teorią opisaną [tutaj](metoda1-rzedu-2.md)  
+rozwiązanie będzie postaci:
+$$ Y=C_1 \cdot e^{\alpha x} + C_2 \cdot x\cdot e^{\alpha x} $$
+więc ostatecznie dla naszego przykładu mamy:  
+$$ Y=C_1 \cdot e^{-2x} + C_2 \cdot x\cdot e^{-2x} $$  
+$$
+y' + x \cdot y = 0
+$$
+$$
+\frac{dy}{dx} = -x \cdot y\
+$$ 
+$$
+\frac{dy}{y} = -x \cdot dx\
+$$
+$$
+\int \frac{dy}{y} = \int -x \cdot dx\
+$$
+$$
+ ln|y| = -\frac{1}{2}x^2 + c\
+ $$
+$$
+ln|y| = \ln\left(e^{-\frac{1}{2}x^2}\right) + lne^c\
+$$
+$$
+ln|y| = \ln\left(e^{-\frac{1}{2}x^2} \cdot e^c\right)\
+$$  
+ale \(e^c\) to stała, którą oznaczymy C,    
+więc po opuszczeniu logarytmu naturalnego otrzymujemy:  
+$$
+y = C \cdot e^{-\frac{1}{2}x^2}\
+$$
+Jest to rozwiązanie ogólne jednorodne.  
 
-## 🔹 Zmiennych rozdzielonych
+🔙 [Powrót do opisu](metoda2-rzedu-1.md)  
+np.
+$$ y'' -4y = e^2x $$
+Szukamy rozwiązania ogólnego równania liniowego jednorodnego:
+$$ y'' -4y = 0 $$
+Podstawiamy \( y = e^{\alpha x} \), wtedy:
+$$
+\alpha^2 - 4 = 0
+$$
+Zatem:
+$$
+\alpha^2 = 4
+$$
+$$
+\alpha_1 = 2, \quad \alpha_2 = -2
+$$
+Rozwiązaniem równania ogólnego jednorodnego będzie:
+$$ y = C_1e^{2x} + C_2 e^{-2x} $$
+Krotność \(\beta\) wynosi 1 więc przewidywane rozwiązanie równania szczególnego niejednorodnego będzie postaci:
 
-**Zadanie 1**  
-\(
-\frac{dy}{dx} = \frac{xy}{1 + y^2}
-\)  
+$$
+y^* = a \cdot x \cdot e^{2x}
+$$
 
-??? info "Pokaż rozwiązanie"
-    Rozdzielamy:
-    \(
-    \frac{1 + y^2}{y} dy = x dx
-    \)  
-    \(
-    \int \left(1 + \frac{1}{y^2}\right) dy = \int x dx \Rightarrow y - \frac{1}{y} = \frac{x^2}{2} + C
-    \)
+Obliczamy pierwszą pochodną \( y^* \):  
 
-**Zadanie 2**  
-\(
-\frac{dy}{dx} = \frac{e^x}{y}
-\)  
+$$
+(y^*)' = a \cdot e^{2x} + 2a \cdot x \cdot e^{2x}
+$$  
+Obliczamy drugą pochodną \( y^* \):  
 
-??? info "Pokaż rozwiązanie"
-    Rozdzielamy:
-    \(
-    y dy = e^x dx
-    \Rightarrow \int y dy = \int e^x dx \Rightarrow \frac{y^2}{2} = e^x + C
-    \)  
+$$
+(y^*)'' = 2a\cdot e^{2x}(2x+2)
+$$
 
----
+Podstawiamy \((y^*)''\) oraz \(y^*\) do naszego równania \( y'' -4y = e^2x \) i wyliczamy z niego wspólczynnik a.  
+Otrzymujemy \(a=\frac{1}{4}\), więc \(y^*\) jest postaci:
 
-## 🔹 Liniowe jednorodne
+$$ y^* = \frac{1}{4}xe^{2x} $$  
 
-**Zadanie 3**  
-\(
-\frac{dy}{dx} + 2y = 0
-\)  
+Ostatecznym rozwiązaniem ogólnym równania liniowego niejednorodnego II-go rzędu jest:
+$$ Y = y + y^* = C_1e^{2x} + C_2e^{-2x} + \frac{1}{4}xe^{2x} $$  
 
-??? info "Pokaż rozwiązanie"
-    Czynnik całkujący: \( \mu(x) = e^{2x} \)  
-    \(
-    \frac{d}{dx}(y e^{2x}) = 0 \Rightarrow y e^{2x} = C \Rightarrow y = C e^{-2x}
-    \)
+np.
+$$ y' - tgx \cdot y = cosx $$
+Rozwiązujemny równanie ogólne liniowe jednorodne  
+$$ y' - tgx \cdot y = 0 $$
+$$ y' = tgx\cdot y $$
+$$ \frac{dy}{dx} = tgx\cdot y $$
+$$ \frac{dy}{y} = tgx\cdot dx $$
+$$ \int {\frac{dy}{y}} = \int {tgxdx} $$
+$$ \int {\frac{dy}{y}} = ln|y| + c $$
+$$ \int {tgxdx} = \int {\frac{sinx}{cosx}dx} = //t=cosx, dt=-sinxdx// = -\int {\frac{1}{t}dt} = -ln|t| + c = -ln|cosx| + c $$
+$$ ln|y| = -ln|cosx| + c_1 $$
+$$ ln|y| = -ln|cosx| + lne^{c_1} $$
+$$ ln|y| = lne^{c_1} - ln|cosx| $$
+$$ ln|y| = ln{\frac{e^{c_1}}{|cosx|}} $$
+$$ e^{c_1} = C$$
+$$ y = \frac {C}{cosx} $$
+Rozwiązujemy równanie szczególne niejednorodne:  
 
-**Zadanie 4**  
-\(
-\frac{dy}{dx} + \frac{1}{x}y = 0
-\)  
+$$ y^* = \frac{C(x)}{cosx} $$
 
-??? info "Pokaż rozwiązanie"
-    \(\mu(x) = e^{\int \frac{1}{x} dx} = x\)    
-    \(
-    \frac{d}{dx}(x y) = 0 \Rightarrow xy = C \Rightarrow y = \frac{C}{x}
-    \)  
+$$ (y^*)' - tgx \cdot y^* = cosx $$ 
 
----
+$$ C'(x) = (cosx)^2 $$
 
-## 🔹 Liniowe niejednorodne
+$$ C(x) = \int (cosx)^2 = \frac {1}{4} (sin2x+2x) $$
 
-**Zadanie 5**  
-\(
-\frac{dy}{dx} + y = \cos x
-\)  
+$$ y^* = \frac{\frac {1}{4} (sin2x+2x)}{cosx} $$
 
-??? info "Pokaż rozwiązanie"
-    \( \mu(x) = e^x \)  
-    \(
-    \frac{d}{dx}(y e^x) = e^x \cos x \Rightarrow y = e^{-x} \int e^x \cos x dx
-    \)  
-    Całkowanie przez części:
-    \(
-    y = \frac{e^{-x}}{2}(e^x \sin x + \cos x) + C e^{-x}
-    \)  
+$$ Y = y + y^* = \frac {C}{cosx} + \frac{\frac {1}{4} (sin2x+2x)}{cosx} = \frac{\frac {1}{4} (sin2x+2x)+C}{cosx} $$  
 
-**Zadanie 6**  
-\(
-\frac{dy}{dx} + y = x^2
-\)  
+Rozwiążmy równanie:
+$$
+(3x^2 + 6xy^2)\,dx + (6x^2y + 4y^3)\,dy = 0
+$$  
 
-??? info "Pokaż rozwiązanie"
-    \( \mu(x) = e^x \)  
-    \(
-    \frac{d}{dx}(y e^x) = x^2 e^x \Rightarrow y = e^{-x} \int x^2 e^x dx
-    \)  
-    (Całkowanie przez części — pomijamy)
+Identyfikujemy funkcje
+Mamy:
+$$
+P(x, y) = 3x^2 + 6xy^2 
+$$
+$$
+Q(x, y) = 6x^2y + 4y^3 
+$$
 
----
+Obliczamy pochodne cząstkowe:
+$$
+\frac{dP}{dy} = 12xy
+$$ 
+$$
+\frac{dQ}{dx} = 12xy
+$$
+$$
+\frac{dP}{dy} = \frac{dQ}{dx}
+$$
+Zatem warunek zupełności jest spełniony. 
 
-## 🔹 Zupełne i z czynnikiem całkującym
+Znajdujemy funkcję pierwotną \(F(x, y)\):  
+Całkujemy \(P(x, y)\) względem \(x\):
+$$
+\int (3x^2 + 6xy^2) \, dx = x^3 + 3x^2y^2 + h(y)
+$$
 
-**Zadanie 7**  
-\(
-(2xy + y^2)dx + (x^2 + 2xy)dy = 0
-\)  
+Wyznaczenie \( h(y) \)
+Obliczamy pochodną \(F(x, y)\) względem \(y\):
+$$
+\frac{dF}{dy} = 6x^2y + h'(y)
+$$
+Porównujemy z \(Q(x, y)\):  
+$$
+6x^2y + h'(y) = 6x^2y + 4y^3 
+$$ 
+$$
+h'(y) = 4y^3
+$$ 
+$$
+\int h'(y) = y^4
+$$
 
-??? info "Pokaż rozwiązanie"
-    Warunek zupełności spełniony ✅  
-    \(
-    \frac{dM}{dy} = 2x + 2y = \frac{dN}{dx}
-    \)  
-    \(
-    F(x, y) = x^2y + xy^2 = C
-    \)  
+Zapisujemy rozwiązanie ogólne
+$$
+F(x, y) = x^3 + 3x^2y^2 + y^4 = C
+$$
 
-**Zadanie 8**  
-\(
-(3x + 4y)dx + (4x + 6y)dy = 0
-\)  
+Ostateczne rozwiązanie równania:
+$$
+x^3 + 3x^2y^2 + y^4 = C
+$$
+$$
+(3x^2 + 6xy^2)dx + (6x^2y + 4y^3)dy= 0 
+$$  
 
-??? info "Pokaż rozwiązanie"
-    Sprawdzamy zupełność:
-    \(
-    \frac{dM}{dy} = 4 \text{ oraz } \frac{dN}{dx} = 4 \Rightarrow \text{zupełne ✅}
-    \)    
-    \(
-    F(x, y) = 3x^2/2 + 4xy + 3y^2 = C
-    \)  
-
-**Zadanie 9**  
-\(
-(y + 2x)dx + x dy = 0
-\)  
-
-??? info "Pokaż rozwiązanie"
-    Niezupełne. Mnożymy przez \(\mu = \frac{1}{x}\):  
-    \(
-    \left(\frac{y}{x} + 2\right) dx + dy = 0
-    \)  
-    Teraz zupełne: \(F(x, y) = y + 2x + \ln|x| = C\)  
-
-**Zadanie 10**  
-\(
-(y - x)dx + (x - 2y)dy = 0
-\)  
-
-??? info "Pokaż rozwiązanie"
-    Niezupełne. Znajdujemy czynnik \(\mu = \frac{1}{y^2}\) (przykładowy) lub transformujemy do rozdzielnych. Rozwiązanie po przekształceniu:
-    \(
-    \frac{dy}{dx} = \frac{y - x}{x - 2y} \Rightarrow \text{zmienne rozdzielone}
-    \)  
-
----
-
-## 🔹 II rzędu liniowe jednorodne
-
-**Zadanie 11**  
-\(
-y'' - 3y' + 2y = 0
-\)  
-
-??? info "Pokaż rozwiązanie"
-    Równanie charakterystyczne:
-    \(
-    r^2 - 3r + 2 = 0 \Rightarrow r = 1, 2 \Rightarrow y = C_1 e^x + C_2 e^{2x}
-    \)  
-
-**Zadanie 12**  
-\(
-y'' + y = 0
-\)  
-
-??? info "Pokaż rozwiązanie"
-    Równanie charakterystyczne:
-    \(
-    r^2 + 1 = 0 \Rightarrow r = \pm i \Rightarrow y = C_1 \cos x + C_2 \sin x
-    \)  
-
----
-
-## 🔹 II rzędu liniowe niejednorodne
-
-**Zadanie 13**  
-\(
-y'' - y = e^x
-\)
-
-??? info "Pokaż rozwiązanie"
-    Rozwiązanie ogólne to suma rozwiązania jednorodnego i szczególnego:
-    \(
-    y_h = C_1 e^x + C_2 e^{-x}
-    \)
-    Zgadujemy postać szczególnego: \(y_p = Ax e^x\)
-    \(
-    y_p' = Ae^x + Axe^x, \quad y_p'' = 2Ae^x + Axe^x
-    \)
-    Podstawiamy:
-    \(
-    y'' - y = (2Ae^x + Axe^x) - Axe^x = 2Ae^x = e^x \Rightarrow A = \frac{1}{2}
-    \)
-    \(
-    y = C_1 e^x + C_2 e^{-x} + \frac{1}{2}x e^x
-    \)
-
-**Zadanie 14**  
-\(
-y'' + 4y = \cos 2x
-\)
-
-??? info "Pokaż rozwiązanie"
-    Rozwiązanie jednorodne:
-    \(
-    r^2 + 4 = 0 \Rightarrow r = \pm 2i \Rightarrow y_h = C_1 \cos 2x + C_2 \sin 2x
-    \)
-    Prawej stronie odpowiada szczególne: \(y_p = Ax \cos 2x + Bx \sin 2x\)
-    (z powodu rezonansu)
-    Po podstawieniu i porównaniu współczynników:
-    \(
-    y_p = -\frac{1}{8}x \sin 2x
-    \)
-    \(
-    y = C_1 \cos 2x + C_2 \sin 2x - \frac{1}{8}x \sin 2x
-    \)

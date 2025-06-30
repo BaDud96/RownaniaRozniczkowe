@@ -14,7 +14,6 @@ Projekt został przygotowany w ramach zajęć projektowych przez zespół dwuoso
 - MkDocs + szablon Material
 - Visual Studio Code
 - Git + GitHub
-- Python (sympy, matplotlib)
 
 ---
 

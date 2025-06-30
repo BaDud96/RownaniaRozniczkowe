@@ -1,7 +1,7 @@
 # Kurs Równania Różniczkowe
 
 Witamy w kursie poświęconym równaniom różniczkowym – jednemu z fundamentów matematyki stosowanej, fizyki, informatyki i inżynierii.  
-Kurs jest oparty o wykłady dr hab. Anny Czapkiewicz.
+Kurs jest oparty o wykłady dr hab. Anny Czapkiewicz,profesor AGH.
 
 ## 🎯 Cel kursu
 Celem tego kursu jest przystępne wprowadzenie do podstaw rozwiązywania równań różniczkowych wraz z prostymi przykładami.

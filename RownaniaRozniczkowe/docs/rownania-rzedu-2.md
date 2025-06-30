@@ -8,7 +8,7 @@ np.
   <div style="flex: 1;"></div>
   <div style="flex: 1; text-align: center;">\( y'' + 4y' + 4y = 0 \)</div>
   <div style="flex: 1; text-align: right;">
-    <a href="/przyklad-metoda1-rzedu-2/">Zobacz rozwiązanie</a>
+    <a href="../przyklad-metoda1-rzedu-2/">Zobacz rozwiązanie</a>
   </div>
 </div> 
 Jeżeli f(x) różne od 0, wówczas mówimy o **równaniu różniczkowym drugiego rzędu liniowym niejednorodnym**  
@@ -17,7 +17,7 @@ np.
   <div style="flex: 1;"></div>
   <div style="flex: 1; text-align: center;">\( y'' - 4y = e^{2x} \)</div>
   <div style="flex: 1; text-align: right;">
-    <a href="/przyklad-metoda2-rzedu-2/">Zobacz rozwiązanie</a>
+    <a href="../przyklad-metoda2-rzedu-2/">Zobacz rozwiązanie</a>
   </div>
 </div>  
  

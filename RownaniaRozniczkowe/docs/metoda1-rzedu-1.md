@@ -1,4 +1,5 @@
-## Równanie różniczkowe pierwszego rzędu **o zmiennych rozdzielonych** to takie, które można zapisać w postaci:  
+## Równanie różniczkowe pierwszego rzędu **o zmiennych rozdzielonych** 
+to równanie, które można zapisać w postaci:  
 $$
 y' = f(x) \cdot g(y)
 $$
@@ -25,3 +26,5 @@ Jeżeli w zadaniu będzie podany **warunek poczatkowy Cauchy'ego y(x0) = y**, to
 
 ## 📘 Interpretacja geometryczna
 Wartości \( \frac{dy}{dx} \) można traktować jako nachylenia stycznych do wykresu funkcji \(y(x)\). Rozdzielenie zmiennych pozwala „rozłożyć” to nachylenie na składniki zależne od \(x\) i \(y\), co umożliwia łatwiejszą analizę i rozwiązanie równania.
+
+Czas na praktykę: [zobacz przykład](przyklad-metoda1-rzedu-1.md)

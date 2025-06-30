@@ -1,4 +1,5 @@
-Równanie różniczkowe I-go rzędu liniowe **niejednorodne**, to równanie postaci:  
+## Równanie różniczkowe I-go rzędu liniowe **niejednorodne**
+to równanie postaci:  
 $$
 y' + P(x) \cdot y = f(x)
 $$

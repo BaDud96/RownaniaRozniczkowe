@@ -16,7 +16,6 @@ Celem tego kursu jest przystępne wprowadzenie do podstaw rozwiązywania równa�
 - [**Wstęp**](Wstep.md) – Wprowadzenie do równań różniczkowych
 - [**Równania I stopnia**](rownania-rzedu-1.md) – Czym są, jakimi metodami je rozwiązywać?
 - [**Równania II stopnia**](rownania-rzedu-2.md) – Czym się róznią od I-go rzędu, jak je rozwiązywać?
-- [**Przykłady**](przyklady.md) – Przykłady rozwiązań podstawowych równań różniczkowych
 - [**Zadania**](zadania.md) – Przykładowe zadania do utrwalenia materiału
 
 ## 👥 Dla kogo?

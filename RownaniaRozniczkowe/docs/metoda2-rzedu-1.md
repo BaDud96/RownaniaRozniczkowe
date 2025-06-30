@@ -1,4 +1,5 @@
-Równanie różniczkowe I-go rzędu liniowe jednorodne, to równanie postaci:  
+## Równanie różniczkowe I-go rzędu liniowe jednorodne 
+to równanie postaci:  
 $$
 y' + P(x) \cdot y = 0
 $$
@@ -11,3 +12,4 @@ np.
   </div>
 </div>  
 Podobnie jak w metodzie do [zmiennych rozdzielonych](metoda1-rzedu-1.md) grupujemy y po lewej, a x po prawej stronie.  
+

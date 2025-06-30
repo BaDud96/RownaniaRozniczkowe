@@ -58,3 +58,5 @@ $$
 $$
 (3x^2 + 6xy^2)dx + (6x^2y + 4y^3)dy= 0 
 $$
+
+🔙 [Powrót do opisu](metoda4-rzedu-1.md)

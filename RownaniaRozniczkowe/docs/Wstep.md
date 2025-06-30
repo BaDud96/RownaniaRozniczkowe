@@ -4,16 +4,17 @@ Są one szeroko wykorzystywane w fizyce, biologii, ekonomii i inżynierii – ws
 
 Równania różniczkowe dzielimy m.in. ze względu na rzędowość:  
 
-- Równania różniczkowe I-go rzędu – zawierają tylko pierwszą pochodną funkcji.  
+-[Równania różniczkowe I-go rzędu](rownania-rzedu-1.md)– zawierają tylko pierwszą pochodną funkcji.  
 np.
 $$
     y' + x \cdot y = x^2
 $$
 
-- Równania różniczkowe II-go rzędu – zawierają drugą pochodną, a czasem także pierwszą.  
+-[Równania różniczkowe II-go rzędu](rownania-rzedu-2.md)– zawierają drugą pochodną, a czasem także pierwszą.  
 np.
 $$
 y'' - 4y = x \cdot e^{2x}
 $$
 
 Im wyższy rząd równania, tym bardziej złożone są zależności i procesy, które opisuje.
+

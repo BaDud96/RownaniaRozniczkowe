@@ -2,13 +2,13 @@
 
 Projekt został przygotowany w ramach zajęć projektowych przez zespół dwuosobowy:
 
-## 👩‍💻 Imię i nazwisko 1
+## 👩‍💻 Barbara Dudek
 **Rola:** Kierownik projektu  
-**Odpowiedzialność:** struktura dokumentacji, teoria, równania II stopnia
+**Odpowiedzialność:** struktura dokumentacji, teoria równania I stopnia, teoria równania II stopnia, przykłady
 
-## 👩‍💻 Imię i nazwisko 2
+## 👩‍💻 Paulina Stępień
 **Rola:** Współautor   
-**Odpowiedzialność:** przykłady numeryczne, kod w Pythonie, równania I stopnia
+**Odpowiedzialność:** struktura dokumentacji, teoria równania I stopnia, teoria równania II stopnia, przykłady
 
 ## 🛠️ Narzędzia użyte w projekcie:
 - MkDocs + szablon Material

@@ -27,7 +27,7 @@ Zatem warunek zupełności jest spełniony.
 Znajdujemy funkcję pierwotną \(F(x, y)\):  
 Całkujemy \(P(x, y)\) względem \(x\):
 $$
-(3x^2 + 6xy^2) \, dx = x^3 + 3x^2y^2 + h(y)
+\int (3x^2 + 6xy^2) \, dx = x^3 + 3x^2y^2 + h(y)
 $$
 
 Wyznaczenie \( h(y) \)
@@ -43,7 +43,7 @@ $$
 h'(y) = 4y^3
 $$ 
 $$
-h(y) = y^4
+\int h'(y) = y^4
 $$
 
 Zapisujemy rozwiązanie ogólne

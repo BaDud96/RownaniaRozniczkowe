@@ -27,3 +27,5 @@ $$ C(x) = \int (cosx)^2 = \frac {1}{4} (sin2x+2x) $$
 $$ y^* = \frac{\frac {1}{4} (sin2x+2x)}{cosx} $$
 
 $$ Y = y + y^* = \frac {C}{cosx} + \frac{\frac {1}{4} (sin2x+2x)}{cosx} = \frac{\frac {1}{4} (sin2x+2x)+C}{cosx} $$
+
+🔙 [Powrót do opisu](metoda3-rzedu-1.md)

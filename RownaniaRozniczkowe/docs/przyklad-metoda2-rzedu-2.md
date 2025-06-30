@@ -39,3 +39,4 @@ $$ y^* = \frac{1}{4}xe^{2x} $$
 
 Ostatecznym rozwiązaniem ogólnym równania liniowego niejednorodnego II-go rzędu jest:
 $$ Y = y + y^* = C_1e^{2x} + C_2e^{-2x} + \frac{1}{4}xe^{2x} $$
+🔙 [Powrót do opisu](metoda2-rzedu-2.md)

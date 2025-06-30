@@ -1,0 +1,54 @@
+/* ✅ Styl globalny – używa zmiennych zależnych od trybu */
+body {
+  font-family: Georgia, serif;
+  background-color: var(--bg);
+  color: var(--text);
+  line-height: 2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 1rem;
+  font-family: Georgia, serif;
+  color: var(--headline);
+}
+
+.md-nav__link,
+.md-nav__item {
+  color: var(--nav) !important;
+}
+
+.md-nav__link--active,
+.md-nav__link:hover {
+  background-color: var(--nav-bg) !important;
+  color: var(--nav-hover) !important;
+}
+
+.md-typeset code,
+.md-typeset pre {
+  background-color: var(--code-bg) !important;
+  border: 1px solid var(--code-border);
+}
+
+/* ✅ Jasny tryb: DEFAULT */
+body[data-md-color-scheme="default"] {
+  --bg: #f5faff;           /* jasny niebieskawy */
+  --text: #0a2239;         /* głęboki granat */
+  --headline: #1565c0;     /* niebieski */
+  --nav: #0a2239;
+  --nav-bg: #dbefff;
+  --nav-hover: #001f3f;
+  --code-bg: #e3f2fd;
+  --code-border: #3798e7;
+}
+
+/* ✅ Ciemny tryb: SLATE */
+body[data-md-color-scheme="slate"] {
+  --bg: #0b111b;
+  --text: #d0dae3;
+  --headline: #82b1ff;
+  --nav: #8fbce6;
+  --nav-bg: #1a2636;
+  --nav-hover: #c2e2ff;
+  --code-bg: #11263a;
+  --code-border: #3947a3;
+}
